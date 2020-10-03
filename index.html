@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>skill safari | pricing component at toggle</title>
+  <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+
+   <link rel="stylesheet" href="style.css"/>
+  
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+      <h1>Our Pricing</h1>
+        <div class="toggle-container">
+           <span>Anually</span>
+           <span>
+           
+             <label for="toggle">
+               <div class="ball"></div>
+             </label> <input type="checkbox" name="toggle" id="toggle" unchecked/> 
+           
+           </span>
+           <span>Monthly</span>
+        </div>
+  </div>
+      <div id="flexy" class="flex ">
+        <div class="price-box">
+          <h3>Basic</h3>
+          <p> <span class="Monthly">
+            &dollar;19.99
+          </span></p>
+          <p> <span class="Anually">
+            &dollar;199.99
+          </span></p>
+          <ul>
+            <li>500 GB storage</li>
+            <li>2 users Allowed</li>
+            <li>send up to 3 GB</li>
+          </ul>
+          <button>learn more</button>
+
+        </div>
+        <div class="price-box price-box-primium">
+          <h3>professional</h3>
+           <p> <span class="Monthly">
+            &dollar;24.99
+          </span></p>
+          <p> <span class="Anually">
+            &dollar;249.99
+          </span></p>
+          <ul>
+            <li>1 TB storage</li>
+            <li>5 users Allowed</li>
+            <li>send up to 10 GB</li>
+          </ul>
+          <button>learn more</button>
+        </div>
+        <div class="price-box">
+          <h3>Master</h3>
+          <p> <span class="Monthly">
+            &dollar;39.99
+          </span></p>
+          <p> <span class="Anually">
+            &dollar;399.99
+          </span></p>
+          <ul>
+            <li>2 TB storage</li>
+            <li>10 users Allowed</li>
+            <li>send up to 20 GB</li>
+          </ul>
+          <button>learn more</button>
+        </div>
+       </div>
+</body>
+</html>
